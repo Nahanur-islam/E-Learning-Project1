@@ -38,11 +38,11 @@ const Card = () => {
                             <IoMdStar />
                         </div>
                         <button className="btn 
-                    bg-gray-400">Order</button>
+                    bg-gray-500 text-white">Order</button>
                     </div>
                 </div>
                 <div>
-                    <div>
+                    <div className='relative'>
                         <img src={feature2} alt="" />
                         <IoIosHeart className='absolute top-0 right-0 mr-6 text-2xl text-orange-500 mt-8 ' />
                     </div>
@@ -58,7 +58,7 @@ const Card = () => {
                             <IoMdStar />
                         </div>
                         <button className="btn 
-                    bg-gray-400">Order</button>
+                    bg-gray-500 text-white">Order</button>
                     </div>
                 </div>
                 <div>
@@ -81,7 +81,7 @@ const Card = () => {
                             <IoMdStar />
                         </div>
                         <button className="btn 
-                    bg-gray-400">Order</button>
+                    bg-gray-500 text-white">Order</button>
                     </div>
                 </div>
                 <div>
@@ -99,7 +99,7 @@ const Card = () => {
                             <IoMdStar />
                         </div>
                         <button className="btn 
-                    bg-gray-400">Order</button>
+                    bg-gray-500 text-white">Order</button>
                     </div>
                 </div>
                 <div>
@@ -121,17 +121,19 @@ const Card = () => {
                             <IoMdStar />
                         </div>
                         <button className="btn 
-                    bg-gray-400">Order</button>
+                    bg-gray-500 text-white">Order</button>
                     </div>
                 </div>
 
             </div>
-            <div>
-                <h1 className='text-center text-2xl mt-4 mb-4 '><span className="text-red-500 mt-8 font-bold">View Full Menu</span>
-                </h1>
+            <div className='text-center p-8'>
+               
+                <button className='btn  border-red-600'>View Full Menu</button>
+               
             </div>
         </>
     );
 };
 
 export default Card;
+
