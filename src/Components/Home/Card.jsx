@@ -23,7 +23,7 @@ const Card = () => {
             <div className='flex flex-wrap justify-center gap-8'>
                 <div className='relative bg-gray-200 rounded-md'>
                     <div>
-                        <img src={feature1} alt="" />
+                        <img  src={feature1} alt="" />
                         <IoIosHeart className='absolute top-10 right-10  text-orange-400 text-3xl' />
                     </div>
                     <div className='lg:flex flex gap-16'>

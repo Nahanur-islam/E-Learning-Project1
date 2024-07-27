@@ -16,37 +16,44 @@ const Radius = () => {
 
 
             {/* Card section start */}
-            <div className='flex flex-wrap gap-6 justify-around'>
-                <div className='bg-slate-200  '>
-                    <img src={menu1} alt="" />
+            <div className=' flex flex-wrap gap-6 justify-around'>
+                <div className='rounded-tr-full bg-slate-200  '>
+                    <img src={menu1} className=' ' alt="" />
                     <div className="flex  justify-around">
                         <h4 className="text-xl font-bold">White Sauce <br /> Pasta</h4>
                         <button className="btn bg-teal-500 text-white">View</button>
                     </div>
                 </div>
-                <div className='justify-around bg-slate-200'>
+                <div className='rounded-tr-full bg-slate-200'>
                     <img src={menu2} alt="" />
                     <div className="flex justify-around">
                         <h4 className="text-xl font-bold">White Sauce <br /> Pasta</h4>
                         <button className="btn bg-teal-500 text-white">View</button>
                     </div>
                 </div>
-                <div className='bg-slate-200'>
+                <div className= ' rounded-tr-full bg-slate-200'>
                     <img src={menu3} alt="" />
                     <div className="flex justify-around">
                         <h4 className="text-xl font-bold">White Sauce <br /> Pasta</h4>
                         <button className="btn bg-teal-500 text-white ">View</button>
                     </div>
                 </div>
-                <div className='bg-slate-200'>
+                <div className='rounded-tr-full bg-slate-200'>
                     <img src={menu4} alt="" />
                     <div className="flex justify-around">
                         <h4 className="text-xl font-bold">White Sauce <br /> Pasta</h4>
                         <button className="btn bg-teal-500 text-white">View</button>
                     </div>
                 </div>
-                <div className='bg-slate-200'>
+                <div className= 'rounded-tr-full bg-slate-200'>
                     <img src={menu5} alt="" />
+                    <div className="flex justify-around">
+                        <h4 className="text-xl font-bold">White Sauce <br /> Pasta</h4>
+                        <button className="btn bg-teal-500 text-white">View</button>
+                    </div>
+                </div>
+                <div className='rounded-tr-full bg-slate-200'>
+                    <img src={menu2} alt="" />
                     <div className="flex justify-around">
                         <h4 className="text-xl font-bold">White Sauce <br /> Pasta</h4>
                         <button className="btn bg-teal-500 text-white">View</button>

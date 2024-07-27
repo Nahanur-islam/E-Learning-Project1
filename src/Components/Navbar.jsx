@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className='flex justify-around  py-6 '>
             <div>
-                <img src={Logo} className='w-20 h-16 object-cover' alt="" />
+                <img  src={Logo} className=' h-16 object-cover w-[10rem]' alt="" />
             </div>
             <div className=' my-auto nav-link  '>
                 <ul className='flex gap-4 '>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 </ul>
             </div>
            
-            <div className='flex gap-4 '>
+            <div className='flex gap-4'>
                 <div className='flex mt-6 gap-2'>
                     <div >
                         <CiSearch />
@@ -67,7 +67,7 @@ const Navbar = () => {
                 <div className=' my-auto'>
 
                     <img src="" alt="" />
-                    <button className='btn bg-teal-500 text-white'>
+                    <button className='btn mr-26 bg-teal-500 text-white'>
 
                         Login
                     </button>

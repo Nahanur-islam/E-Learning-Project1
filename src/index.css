@@ -14,3 +14,9 @@ body {
     justify-content: center;
     margin: auto;
 }
+.footer-img{
+    background-image: url(../public/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

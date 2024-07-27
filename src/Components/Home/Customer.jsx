@@ -35,9 +35,9 @@ export default function App() {
                 <div>
                      <Swiper
                 onSwiper={setSwiperRef}
-                slidesPerView={3}
+                slidesPerView={2}
                 centeredSlides={true}
-                spaceBetween={30}
+                spaceBetween={15}
                 pagination={{
                     type: 'fraction',
                 }}
