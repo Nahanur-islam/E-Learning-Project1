@@ -8,16 +8,16 @@ const Radius = () => {
     return (
         <div>
             <div>
-                <p className="mt-20 text-center py-2 text-2xl">
+                <p className="mt-20  text-center py-2 lg:text-2xl text-xl">
                     <span className=" text-green-500 mt-8 font-bold">VIEW OUR TRENDING RECEPIES</span>
                 </p>
-                <h1 className="text-5xl font-bold text-center mt-4 mb-8">What We’re Craving Now?</h1>
+                <h1 className="lg:text-5xl text-4xl font-bold text-center mt-4 mb-8">What We’re Craving Now?</h1>
             </div>
 
 
             {/* Card section start */}
-            <div className='flex justify-around'>
-                <div className='bg-slate-200'>
+            <div className='flex flex-wrap gap-6 justify-around'>
+                <div className='bg-slate-200  '>
                     <img src={menu1} alt="" />
                     <div className="flex  justify-around">
                         <h4 className="text-xl font-bold">White Sauce <br /> Pasta</h4>

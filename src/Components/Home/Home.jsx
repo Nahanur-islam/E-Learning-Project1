@@ -20,6 +20,7 @@ const Home = () => {
             <Chefs></Chefs>
             <Customer></Customer>
             <Footer></Footer>
+    
         </div>
     );
 };

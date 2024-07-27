@@ -8,12 +8,12 @@ const Chefs = () => {
     return (
         <div>
             <div>
-                <p className="text-center text-red-500 text-xl ">MEET AND GREET</p>
-                <h1 className="text-5xl font-bold text-center mt-4 mb-8">Meet Our Chefs</h1>
+                <p className="text-center text-red-500 text-xl  ">MEET AND GREET</p>
+                <h1 className="lg:text-5xl text-center text-4xl  -mb-2 font-bold lg:text-center lg:mt-4 mb-8">Meet Our Chefs</h1>
             </div>
             {/* Chefs Card Start */}
             
-            <div className='flex justify-around p-4'>
+            <div className='grid md:grid-cols-2 ml-26 lg:grid-cols-5 justify-around p-4'>
                 <div >
                     <img src={chefs1} alt="" />
                     <p className="text-center text-xl">Emmy Doe</p>

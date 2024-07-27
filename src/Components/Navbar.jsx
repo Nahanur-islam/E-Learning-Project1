@@ -1,16 +1,19 @@
 
 import { NavLink } from 'react-router-dom';
-import Flower1 from '../../public/Flower1.png'
+import Logo from '../../public/Logo.png'
 import '../Components/Home/responsive.css'
+import { CiSearch } from "react-icons/ci";
+import { GiShoppingCart } from "react-icons/gi";
+
 
 const Navbar = () => {
     return (
-        <div className='flex justify-around py-6 '>
+        <div className='flex justify-around  py-6 '>
             <div>
-                <img src={Flower1} className='w-20 h-16 object-cover' alt="" />
+                <img src={Logo} className='w-20 h-16 object-cover' alt="" />
             </div>
-            <div className=' my-auto nav-link'>
-                <ul className='flex gap-4'>
+            <div className=' my-auto nav-link  '>
+                <ul className='flex gap-4 '>
                     <NavLink to={'/'} className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "text-red-500 underline" : ""
                     }>
@@ -36,13 +39,40 @@ const Navbar = () => {
                     }>
                         <li className='text-lg font-semibold'>About Us</li>
                     </NavLink>
+                    <NavLink to={'menu'} className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                    }>
+                        <li className='text-lg font-semibold'>Menu</li>
+                    </NavLink>
+                    <NavLink to={'recepies'} className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                    }>
+                        <li className='text-lg font-semibold'>Recepies</li>
+                    </NavLink>
+                    <NavLink to={'menu'} className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "text-red-500 underline" : ""
+                    }>
+                        <li className='text-lg font-semibold'>Testimonials</li>
+                    </NavLink>
                 </ul>
             </div>
-            <div className=' my-auto'>
-                <button className='btn bg-teal-500 text-white'>
-                    Login
-                </button>
-            </div>
+           
+            <div className='flex gap-4 '>
+                <div className='flex mt-6 gap-2'>
+                    <div >
+                        <CiSearch />
+                    </div>
+                    <div><GiShoppingCart /></div>
+                </div>
+                <div className=' my-auto'>
+
+                    <img src="" alt="" />
+                    <button className='btn bg-teal-500 text-white'>
+
+                        Login
+                    </button>
+                </div>
+          </div>
         </div>
     );
 };
